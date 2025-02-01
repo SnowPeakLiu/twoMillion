@@ -1,0 +1,31 @@
+# API Clients
+python-binance>=1.0.19  # Binance API client
+openai>=1.12.0         # OpenAI API client
+
+# Data Processing
+pandas>=2.0.0          # Data analysis and manipulation
+numpy>=1.24.0          # Numerical computations
+ta-lib>=0.4.28        # Technical analysis indicators
+
+# Machine Learning
+scikit-learn>=1.3.0    # Machine learning tools
+
+# Web Framework
+fastapi>=0.109.0       # Web API framework
+uvicorn>=0.27.0        # ASGI server
+
+# Utilities
+python-dotenv>=1.0.0   # Environment variables management
+pydantic>=2.6.0        # Data validation
+tenacity>=8.2.0        # Retry mechanism
+requests>=2.31.0       # HTTP client
+rich>=13.7.0           # Terminal formatting
+loguru>=0.7.0          # Logging system
+
+# Development Tools
+pytest>=8.0.0          # Testing framework
+pytest-cov>=4.1.0      # Test coverage
+black>=24.1.0          # Code formatter
+flake8>=7.0.0          # Code linter
+mypy>=1.8.0            # Type checker
+isort>=5.13.0          # Import sorter 

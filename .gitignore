@@ -1,0 +1,64 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Environment variables
+.env
+
+# Project specific
+data/
+logs/
+*.log
+.coverage
+coverage.xml
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Cache directories
+.cache/
+.mypy_cache/
+
+# C extensions
+*.so
+
+# IDE settings
+*.swp
+*.swo
+
+# Jupyter Notebook
+*.ipynb_checkpoints
+
+# Testing
+htmlcov/
+
+# Project specific
+data/cache/*
+data/analysis/*
+!data/cache/.gitkeep
+!data/analysis/.gitkeep
+
+# System files
+.DS_Store
+Thumbs.db 
