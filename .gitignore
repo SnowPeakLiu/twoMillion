@@ -1,64 +1,11 @@
-### Python ###
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Distribution / packaging
-dist/
-build/
-*.egg-info/
-
-# Virtual environments
+# 开发环境
 venv/
-env/
-.env/
-.venv/
-
-# IDE specific files
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# Environment variables
 .env
+*.pyc
+__pycache__/
 
-# Project specific
-data/
-logs/
+# 日志文件
 *.log
-.coverage
-coverage.xml
-.pytest_cache/
 
-# Jupyter Notebook
-.ipynb_checkpoints
-*.ipynb
-
-# Cache directories
-.cache/
-.mypy_cache/
-
-# C extensions
-*.so
-
-# IDE settings
-*.swp
-*.swo
-
-# Jupyter Notebook
-*.ipynb_checkpoints
-
-# Testing
-htmlcov/
-
-# Project specific
-data/cache/*
-data/analysis/*
-!data/cache/.gitkeep
-!data/analysis/.gitkeep
-
-# System files
-.DS_Store
-Thumbs.db 
+# 测试数据
+test_data/ 
