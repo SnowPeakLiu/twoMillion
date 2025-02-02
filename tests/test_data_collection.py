@@ -9,8 +9,15 @@ import shutil
 import json
 import time
 from unittest import skip
+import warnings
+import pytest
 from src.data.binance_data_collector import DataCollector
 
+# Filter out deprecation warnings from binance package dependencies
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="websockets")
+warnings.filterwarnings("ignore", category=DeprecationWarning, module="binance")
+
+@pytest.mark.filterwarnings("ignore::DeprecationWarning")
 class TestDataCollector(unittest.TestCase):
     """Test cases for DataCollector class."""
     
